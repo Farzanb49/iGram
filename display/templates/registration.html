@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/login.css')}}">
+  <link rel="stylesheet" type="text/css" href="static/login.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Login</title>
+  </head>
+  <body>
+<nav class="navbar bg-nav">
+    <a href="" class="navbar-brand">iGram</a>
+
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="text-light display-4 mt-100" style="font-size: 60px"> iGram: Revolutionary, Private Social Media Platform for Mental Health</h1>
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-100">
+                <div class="card-body">
+                    <form action="/">
+                        <label>Name</label><br>
+                        <input type="text" class ="form-control"><br>
+                        <label>Email</label><br>
+                        <input type="email" class ="form-control"><br>
+                        <label>Password</label><br>
+                        <input type="password" class="form-control"><br><br>
+                        <a href="/"><input type="submit" class="btn btn-primary btn-block btn-lg" value="Sign Up"></a>
+                    </form>
+                    <p class="mt-2">Already a Member? <a href="/"> Log In</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
+  </html>

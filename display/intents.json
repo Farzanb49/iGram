@@ -1,0 +1,108 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Good morning","Good afternoon","Good evening", "sup", "yo", "hiii", "hi", "whats up"],
+         "responses": ["Hi","Hello", "Good to see you again", "Hey bro","Hey bro, how you feeling today?", "How you holding up?", "What's up?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "helpful", "Awesome thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure, I understand"],
+         "context": [""]
+        },
+        {"tag": "games",
+            "patterns": ["hey I want to play a game","i need to calm my mind, got any games","I want to play fireboy and watergirl"],
+            "responses": ["Sounds good, we have a lot of games! What do you want to play? fireboy and watergirl, pacman, urban basketball"],
+            "context": [""]
+        },
+        {"tag": "more games",
+            "patterns": ["you have any other games", "any more games", "what other games do you got for me"],
+            "responses": ["I got about 98 more games for you! How about 8 Ball Pool or FIFA?", "Wanna play a miniclips game?", "How about Cards Against Humanity", "Pacman?"],
+            "context": [""]
+        },
+        {"tag": "more games",
+            "patterns": ["you have any other games", "any more games", "what other games do you got for me"],
+            "responses": ["I got about 98 more games for you! How about 8 Ball Pool or FIFA?", "Wanna play a miniclips game?", "How about Cards Against Humanity", "Pacman?"],
+            "context": [""]
+        },
+        {"tag": "fireboy and watergirl",
+            "patterns": ["fireboy and watergirl", "alright lets play fireboy and watergirl", "i want to play fireboy and watergirl"],
+            "responses": ["<a href='https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple'>fireboy and watergirl</a>"],
+            "context": [""]
+        },
+        {"tag": "8 Ball Pool",
+            "patterns": ["8 Ball Pool", "alright lets play 8 ball pool", "i want to play 8 ball pool"],
+            "responses": ["<a href='https://www.miniclip.com/games/8-ball-pool-multiplayer/en/'>8 ball pool</a>"],
+            "context": [""]
+        },
+        {"tag": "Urban Basketball",
+            "patterns": ["urban basketball", "alright lets play urban basketball", "i want to play urban basketball"],
+            "responses": ["<a href='https://www.miniclip.com/games/urban-basketball/en/'>urban basketball</a>"],
+            "context": [""]
+        },
+        {"tag": "Cards against humanity",
+            "patterns": ["cah", "cards against humanity", "alright lets play cards against humanity", "i want to play cards against humanity"],
+            "responses": ["<a href='https://azala.info/static/index.html'>cards against humanity</a>"],
+            "context": [""]
+        },
+        {"tag": "basketball legends",
+            "patterns": ["basketball legends", "alright lets play basketball legends", "i want to play basketball legends"],
+            "responses": ["<a href='https://www.y8.com/games/basketball_legends'>basketball legends</a>"],
+            "context": [""]
+        },
+        {"tag": "how are you",
+            "patterns": ["how are you"],
+            "responses": ["I'm good! wbu?"],
+            "context": [""]
+        },
+        {"tag": "sad",
+            "patterns": ["I'm not feeling well", "I'm sad", "Today hasn't been good", "I lost a close friend of mine"],
+            "responses": ["I'm so sorry to hear that", "is there anything I can do for you", "this has to be tough, I want to be there for you"],
+            "context": [""]
+        },
+        {"tag": "anxious",
+            "patterns": ["I'm very nervous"],
+            "responses": ["u got this! Just think about that funny tiktok u sent me last night lol"],
+            "context": [""]
+        },
+        {"tag": "frustrated",
+            "patterns": ["I'm so angry", "I can't believe Toronto lost, I'm so mad"],
+            "responses": ["Yeah man that was tough :/"],
+            "context": [""]
+        },
+        {"tag": "happy",
+            "patterns": ["I'm feeling great! I just made this project for a really cool hackathon"],
+            "responses": ["That sounds awesome bro! Hope you win!"],
+            "context": [""]
+        },
+        {"tag": "frontline",
+            "patterns": ["hey I'm a frontline worker and I feel really stressed often", "I'm a frontline worker and it's been tough", "I'm a frontline worker and need some help"],
+            "responses": ["Firstly, thank you for all you've done, <a href='https://www.ontario.ca/page/covid-19-support-workers'>I hope these resources can help you</a>"],
+            "context": [""]
+        },
+        {"tag": "spotify",
+            "patterns": ["hey, I think some music would make me feel better", "I wanna listen to some music", "I want music"],
+            "responses": ["<a href='https://open.spotify.com/'>Here try listening to something on spotify!</a>"],
+            "context": [""]
+        },
+        {"tag": "helpline",
+            "patterns": ["hey could you provide me with a professional or helpline", "I don't feel ok, who can I call", "hey, I need some help"],
+            "responses": ["<a href='https://www.toronto.ca/home/covid-19/covid-19-protect-yourself-others/covid-19-mental-health-resources/'>Try this, City of Toronto Mental Health Resources + Helpline</a>"],
+            "context": [""]
+        },
+        {"tag": "confess",
+            "patterns": ["hey, can I tell you something?"],
+            "responses": ["Of course! I'm here to listen to you :)"],
+            "context": [""]
+        }
+   ]
+}
